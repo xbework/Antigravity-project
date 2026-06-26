@@ -1,0 +1,69 @@
+[
+  {
+    "id": "admin-id",
+    "name": "Admin User",
+    "email": "admin@xbe.academy",
+    "password": "password123",
+    "role": "admin"
+  },
+  {
+    "id": "USR-MNF91U",
+    "name": "jenseera",
+    "email": "jenseera@gmail.com",
+    "role": "student",
+    "fatherName": "fvgfdg",
+    "address": "fdg",
+    "aadhaarNo": "4534",
+    "photo": "",
+    "studentType": "student",
+    "schoolName": "",
+    "companyName": "",
+    "position": "",
+    "qualifications": "",
+    "dob": "22-22-22",
+    "bloodGroup": "A−",
+    "gender": "Male",
+    "hobbies": "",
+    "batchId": "BAT-IN2OL8",
+    "admissionDate": "22-22-22",
+    "paymentDetails": {
+      "paid": 0,
+      "remaining": 5000,
+      "feeOfCourse": 5000,
+      "admissionFee": 0,
+      "discount": 0
+    },
+    "password": "$2b$10$t7X9K3M3PRhg99zByRLQr.ukqBCxvx8gdBS5qAhPt/61jp9V5q0jm",
+    "assignedAt": "2026-04-08T05:10:18.607Z"
+  },
+  {
+    "id": "USR-SC2PXE",
+    "name": "athulya",
+    "email": "athu@gmail.com",
+    "role": "student",
+    "fatherName": "",
+    "address": "",
+    "aadhaarNo": "",
+    "photo": "",
+    "studentType": "student",
+    "schoolName": "",
+    "companyName": "",
+    "position": "",
+    "qualifications": "",
+    "dob": "26-12-45",
+    "bloodGroup": "A+",
+    "gender": "Male",
+    "hobbies": "",
+    "batchId": "BAT-IN2OL8",
+    "admissionDate": "26-20-40",
+    "paymentDetails": {
+      "paid": 0,
+      "remaining": 5000,
+      "feeOfCourse": 5000,
+      "admissionFee": 0,
+      "discount": 0
+    },
+    "password": "$2b$10$avwcACQ4Hakc2ut/TYhNNuFytYnNc9bQCVdBGYAxlS4/2gIZnmtI2",
+    "assignedAt": "2026-04-08T05:18:10.259Z"
+  }
+]

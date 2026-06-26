@@ -1,0 +1,84 @@
+[
+  {
+    "courseName": "regular sslc",
+    "programId": "PROG-3BXVE2",
+    "streamId": "STRM-E6377I",
+    "courseFee": 5000,
+    "launchedAt": "2026-03-18",
+    "createdBy": "1",
+    "id": "CRS-FR091Y",
+    "createdAt": "2026-03-18T13:00:19.518Z"
+  },
+  {
+    "courseName": "python",
+    "programId": "PROG-BF9L7K",
+    "streamId": "STRM-1CZFO2",
+    "courseFee": 10000,
+    "launchedAt": "2026-03-18",
+    "createdBy": "1",
+    "id": "CRS-0QDVGV",
+    "createdAt": "2026-03-18T13:02:59.950Z"
+  },
+  {
+    "courseName": "resin",
+    "programId": "PROG-BF9L7K",
+    "streamId": "STRM-50IBD4",
+    "courseFee": 9000,
+    "launchedAt": "2026-03-18",
+    "createdBy": "1",
+    "id": "CRS-SQCRBT",
+    "createdAt": "2026-03-18T13:04:02.249Z"
+  },
+  {
+    "courseName": "regular 8th",
+    "programId": "PROG-3BXVE2",
+    "streamId": "STRM-BYVM16",
+    "courseFee": 5000,
+    "launchedAt": "2026-03-18",
+    "createdBy": "1",
+    "id": "CRS-PSI1M6",
+    "createdAt": "2026-03-18T13:06:16.928Z"
+  },
+  {
+    "courseName": "c++",
+    "programId": "PROG-BF9L7K",
+    "streamId": "STRM-1CZFO2",
+    "courseFee": 12000,
+    "launchedAt": "2026-03-18",
+    "createdBy": "1",
+    "id": "CRS-CAH4PR",
+    "createdAt": "2026-03-18T13:08:59.411Z"
+  },
+  {
+    "courseName": "reg",
+    "programId": "PROG-3BXVE2",
+    "streamId": "STRM-6AZPTN",
+    "courseFee": 14999,
+    "launchedAt": "2026-03-29",
+    "createdBy": "1",
+    "id": "CRS-4P2V0P",
+    "createdAt": "2026-03-29T06:28:40.322Z"
+  },
+  {
+    "status": "Open",
+    "courseName": "Special",
+    "programId": "PROG-3BXVE2",
+    "streamId": "STRM-6AZPTN",
+    "courseFee": 5000,
+    "launchedAt": "01/04/2026",
+    "createdBy": "1",
+    "id": "CRS-9757IT",
+    "createdAt": "2026-04-06T14:44:31.506Z"
+  },
+  {
+    "status": "Open",
+    "courseName": "drawing",
+    "programId": "PROG-BF9L7K",
+    "streamId": "STRM-50IBD4",
+    "courseFee": 6000,
+    "launchedAt": "08/04/2026",
+    "createdBy": "1",
+    "id": "CRS-GPCTVK",
+    "createdAt": "2026-04-08T05:32:20.878Z"
+  }
+]

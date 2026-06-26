@@ -1,0 +1,181 @@
+Create a modern cross-platform desktop application that runs on Windows and Linux for a school management system called "KAUP SCHOOL".
+
+Application Requirements
+
+Build the application as a standalone desktop app with a clean, modern, professional UI. The interface should be simple so that non-technical school staff can easily use it.
+
+Main Pages
+1. Dashboard
+
+The dashboard should appear after opening the application.
+
+Features:
+
+Display School Name: KAUP SCHOOL at the top.
+
+Show summary cards such as:
+
+Total Students
+
+Students Added Today
+
+Last Backup Date
+
+Navigation menu on the left side.
+
+Buttons for quick actions:
+
+Add Student
+
+View Student List
+
+Backup Data
+
+Design:
+
+Modern UI
+
+Sidebar navigation
+
+Light professional color scheme
+
+Responsive layout
+
+2. Student Registration Page
+
+A form to register new students.
+
+Fields required:
+
+Student ID (Auto generated)
+Registration No
+
+Student Name
+
+Relegion
+
+Cast
+
+Gender
+
+Date of Birth
+Date of Admission
+
+Parent/Guardian Name
+
+Occupation of parent
+
+Identification mark(any 2)
+
+Address
+Migration cirtificate submited at the time of admission
+
+Migration cirtificate recieved at the time of leaving
+Date of leaving
+Standart to joined
+
+
+Features:
+
+Save student details to SQLite database
+
+Form validation
+
+Clear form after submission
+
+Success message after saving
+
+3. Student List Page
+
+A page to view and search students.
+
+Features:
+
+Search box to search by:
+
+Student Name
+
+Class
+
+Phone Number
+
+Display students in a table format
+
+Columns:
+
+Student ID
+
+Name
+
+Class
+
+Phone
+
+Admission Date
+
+Ability to:
+
+View student details
+
+Edit student
+
+Delete student
+
+Data Storage
+
+Use:
+
+SQLite database
+
+Automatic creation of database if not exists.
+
+Additional Features
+
+Backup students data to CSV file
+
+Export student list to PDF
+
+Error handling
+
+Smooth navigation between pages
+
+Technical Requirements
+
+The application should:
+
+Run on Windows and Linux
+
+Be packaged as a single executable file
+
+Use a local database (SQLite)
+
+Recommended technology options:
+
+Python + PySide6 / PyQt6 for GUI
+or
+
+Electron + HTML/CSS/JS
+
+UI Design
+
+Professional school ERP look
+
+Sidebar navigation
+
+Card-based dashboard
+
+Clean table for student list
+
+Modern fonts and spacing
+
+Output
+
+Provide:
+
+Complete source code
+
+Folder structure
+
+Steps to build executable for Windows and Linux
+
+Instructions to install and run on client systems

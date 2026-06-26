@@ -1,0 +1,56 @@
+[
+  {
+    "batchName": "AA25",
+    "streamId": "STRM-E6377I",
+    "courseId": "CRS-FR091Y",
+    "launchedAt": "2026-03-18",
+    "id": "BAT-IN2OL8",
+    "createdAt": "2026-03-18T13:05:31.230Z"
+  },
+  {
+    "batchName": "AA26",
+    "streamId": "STRM-BYVM16",
+    "courseId": "CRS-PSI1M6",
+    "launchedAt": "28/02/2026",
+    "id": "BAT-JRZIHA",
+    "createdAt": "2026-03-18T13:07:27.298Z",
+    "status": "Open",
+    "startDate": "28/02/2026",
+    "endDate": "08/04/2026"
+  },
+  {
+    "batchName": "python coding",
+    "streamId": "STRM-1CZFO2",
+    "courseId": "CRS-0QDVGV",
+    "launchedAt": "2026-03-18",
+    "id": "BAT-GHY5NI",
+    "createdAt": "2026-03-18T13:08:09.044Z"
+  },
+  {
+    "batchName": "c++",
+    "streamId": "STRM-1CZFO2",
+    "courseId": "CRS-CAH4PR",
+    "launchedAt": "2026-03-18",
+    "id": "BAT-BSU8OT",
+    "createdAt": "2026-03-18T13:09:19.610Z"
+  },
+  {
+    "batchName": "btr",
+    "streamId": "STRM-6AZPTN",
+    "courseId": "CRS-4P2V0P",
+    "launchedAt": "2026-03-29",
+    "id": "BAT-84PULL",
+    "createdAt": "2026-03-29T06:29:12.625Z"
+  },
+  {
+    "status": "Open",
+    "startDate": "20/03/2026",
+    "endDate": "20/04/2026",
+    "batchName": "resin art",
+    "streamId": "STRM-50IBD4",
+    "courseId": "CRS-SQCRBT",
+    "launchedAt": "20/03/2026",
+    "id": "BAT-EKOX4Z",
+    "createdAt": "2026-04-09T06:16:13.076Z"
+  }
+]

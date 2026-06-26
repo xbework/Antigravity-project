@@ -1,0 +1,17 @@
+.card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup select option {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
