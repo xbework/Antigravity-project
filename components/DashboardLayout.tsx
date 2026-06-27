@@ -74,8 +74,11 @@ export default function DashboardLayout({ children, navItems, title }: Dashboard
       <aside className={styles.sidebar}>
         <div className={styles.sidebarTop}>
           <Link href="/" className={styles.logo}>
-            <Image src="/logo.png" alt="Xbe Academy" width={30} height={30} />
-            <span className={styles.logoText}>Xbe <span className="gradient-text">Academy</span></span>
+            <Image src="/logo.png" alt="Xbe Academy Logo" width={30} height={30} className={styles.logoImage} />
+            <span className={styles.logoText}>
+              <Image src="/logo_full.png" alt="Xbe" width={31} height={14} className={styles.logoWordmark} />
+              <span className="gradient-text">Academy</span>
+            </span>
           </Link>
         </div>
 

@@ -9,8 +9,11 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.brand}>
           <Link href="/" className={styles.logo}>
-            <Image src="/logo.png" alt="Xbe Academy" width={32} height={32} />
-            <span className={styles.logoText}>Xbe <span className="gradient-text">Academy</span></span>
+            <Image src="/logo.png" alt="Xbe Academy Logo" width={32} height={32} className={styles.logoImage} />
+            <span className={styles.logoText}>
+              <Image src="/logo_full.png" alt="Xbe" width={36} height={16} className={styles.logoWordmark} />
+              <span className="gradient-text">Academy</span>
+            </span>
           </Link>
           <p className={styles.tagline}>
             Elevating careers through premium education. Join thousands of learners transforming their futures.

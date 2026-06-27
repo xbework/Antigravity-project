@@ -34,12 +34,24 @@
   flex-shrink: 0;
 }
 
+.logoImage {
+  filter: brightness(0) invert(1);
+}
+
 .logoText {
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
   font-size: 1.25rem;
   color: #F1F5F9;
   letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.logoWordmark {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav {

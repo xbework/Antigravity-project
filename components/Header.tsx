@@ -24,11 +24,11 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
-        {/* Logo */}
         <Link href="/" className={styles.logo}>
-          <Image src="/logo.png" alt="Xbe Academy" width={36} height={36} priority />
+          <Image src="/logo.png" alt="Xbe Academy Logo" width={36} height={36} priority className={styles.logoImage} />
           <span className={styles.logoText}>
-            Xbe <span className="gradient-text">Academy</span>
+            <Image src="/logo_full.png" alt="Xbe" width={50} height={22} priority className={styles.logoWordmark} />
+            <span className="gradient-text">Academy</span>
           </span>
         </Link>
 

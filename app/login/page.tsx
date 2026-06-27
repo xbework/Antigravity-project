@@ -58,7 +58,7 @@ function LoginContent() {
       
       <div className={styles.card + " glass-card animate-fade"}>
         <div className={styles.header}>
-          <Image src="/logo.png" alt="Xbe Academy" width={48} height={48} />
+          <Image src="/logo_full.png" alt="Xbe Academy" width={100} height={45} className={styles.logo} priority />
           <h1>{isSignup ? 'Start Your Trial' : 'Welcome Back'}</h1>
           <p>{isSignup ? 'Sign up with Google for instant access' : 'Login to your Xbe Academy account'}</p>
         </div>
