@@ -1,11 +1,11 @@
 'use client';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { Lead, Program, Stream, Course, User, Batch } from '@/lib/store';
 import { formatDateToUI, parseUIDateToISO, validateDOB, validateDateStrict } from '@/lib/utils';
 import { useSession } from 'next-auth/react';
 
-export default function RegistrationPage() {
+function RegistrationForm() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { data: session } = useSession();
@@ -76,8 +76,8 @@ export default function RegistrationPage() {
               ...prev,
               name: leadData.name,
               email: leadData.email,
-              programId: leadData.programId,
-              streamId: leadData.streamId,
+              programId: leadData.programId || '',
+              streamId: leadData.streamId || '',
               courseId: leadData.courseId || '',
               studentType: leadData.occupation || 'student',
             }));
@@ -519,5 +519,13 @@ export default function RegistrationPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function RegistrationPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: '3rem', color: 'var(--text-secondary)' }}>Loading registration form...</div>}>
+      <RegistrationForm />
+    </Suspense>
   );
 }

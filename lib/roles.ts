@@ -71,6 +71,15 @@ export const MASTER_NAV_ITEMS = [
 
 export const STAFF_NAV_ITEMS = [
   { icon: '🏠', label: 'Dashboard', href: '/staff/dashboard' },
+  { 
+    icon: '📚', 
+    label: 'Academics', 
+    href: '/academics',
+    subItems: [
+      { label: 'Schedule Classes', href: '/academics/schedule' },
+      { label: 'Mark Attendance', href: '/academics/attendance' }
+    ]
+  },
   { icon: '📝', label: 'My Attendance', href: '/staff/attendance' },
   { icon: '🎓', label: 'My Classes', href: '/staff/classes' },
 ];

@@ -56,9 +56,9 @@ export interface Lead {
   name: string;
   email: string;
   contactNo: string;
-  programId: string;
-  streamId: string;
-  courseId: string;
+  programId?: string;
+  streamId?: string;
+  courseId?: string;
   source?: string;
   status: LeadStatus;
   occupation?: 'student' | 'working' | 'non-working';
@@ -68,6 +68,9 @@ export interface Lead {
   // Legacy fields for mapping
   category?: string;
   lookingFor?: string;
+  phone?: string;
+  location?: string;
+  standard?: string;
 }
 
 export interface User {
@@ -123,6 +126,23 @@ export interface User {
   classesTakenTime?: string;
   screenTime?: string;
 }
+
+export interface Schedule {
+  id: string;
+  date: string; // YYYY-MM-DD
+  startTime: string; // HH:MM
+  endTime: string; // HH:MM
+  subjectId: string;
+  subjectName: string;
+  teacherId: string;
+  teacherName: string;
+  batchIds: string[];
+  batchNames: string[];
+  pdfLink?: string;
+  videoUrl?: string;
+  createdAt: string;
+}
+
 
 // In-memory persistent stores
 const leads: Lead[] = [];

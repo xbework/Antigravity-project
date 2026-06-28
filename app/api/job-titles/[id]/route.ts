@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { readData, writeData } from '@/lib/storage';
 import { auth } from '@/lib/auth';
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const session = await auth();
   const userRole = (session?.user as any)?.role as string;
   if (!session || !['admin', 'master'].includes(userRole)) {
@@ -10,7 +10,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   }
   
   try {
-    const { id } = params;
+    const { id } = await params;
     const body = await req.json();
     const data = readData<any[]>('job-titles.json', []);
     
@@ -28,7 +28,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   }
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const session = await auth();
   const userRole = (session?.user as any)?.role as string;
   if (!session || !['admin', 'master'].includes(userRole)) {
@@ -36,7 +36,7 @@ export async function DELETE(req: NextRequest, { params }: { params: { id: strin
   }
   
   try {
-    const { id } = params;
+    const { id } = await params;
     const data = readData<any[]>('job-titles.json', []);
     
     const initialLength = data.length;

@@ -80,5 +80,16 @@
     "createdBy": "1",
     "id": "CRS-GPCTVK",
     "createdAt": "2026-04-08T05:32:20.878Z"
+  },
+  {
+    "status": "Open",
+    "courseName": "ui/ux",
+    "programId": "PROG-BF9L7K",
+    "streamId": "STRM-NCQD3H",
+    "courseFee": 15000,
+    "launchedAt": "28/06/2026",
+    "createdBy": "1",
+    "id": "CRS-JCP6BI",
+    "createdAt": "2026-06-27T19:04:48.422Z"
   }
 ]

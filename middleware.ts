@@ -11,6 +11,7 @@ const PROTECTED_ROUTES = [
   { path: '/master', allowed: [ROLES.MASTER, ROLES.ADMIN] },
   { path: '/staff/users', allowed: [ROLES.MASTER, ROLES.ADMIN] }, // Strict restriction
   { path: '/staff', allowed: [ROLES.STAFF, ROLES.MASTER, ROLES.ADMIN] },
+  { path: '/academics', allowed: [ROLES.STAFF, ROLES.MASTER, ROLES.ADMIN] },
   { path: '/student', allowed: [ROLES.STUDENT, ROLES.ADMIN] },
   { path: '/freetrial', allowed: [ROLES.FREE_TRIAL, ROLES.STUDENT, ROLES.MASTER, ROLES.STAFF, ROLES.ADMIN] },
 ];
@@ -46,5 +47,5 @@ export default auth((req) => {
 });
 
 export const config = {
-  matcher: ['/admin/:path*', '/master/:path*', '/staff/:path*', '/student/:path*', '/freetrial/:path*'],
+  matcher: ['/admin/:path*', '/master/:path*', '/staff/:path*', '/student/:path*', '/freetrial/:path*', '/academics/:path*'],
 };
